@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.linearframework"
-version = "0.1.0-SNAPSHOT"
+version = "0.1.1-SNAPSHOT"
 
 repositories {
   jcenter()
@@ -29,7 +29,7 @@ tasks.named<Jar>("jar") {
 publishing {
   repositories {
     maven {
-      name = "GithubPackages"
+      name = "LinearMacros"
       url = uri("https://maven.pkg.github.com/linear-framework/linear-macros")
       credentials {
         username = System.getenv("GITHUB_USER")

@@ -1,6 +1,6 @@
 package com.linearframework.macros
 
-import com.linearframework.{BaseSpec, NameOf}
+import com.linearframework.BaseSpec
 import scala.language.experimental.macros
 
 class NameOfSpec extends BaseSpec {

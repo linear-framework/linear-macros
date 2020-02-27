@@ -1,4 +1,4 @@
-package com.linearframework
+package com.linearframework.macros
 
 import scala.annotation.tailrec
 import scala.reflect.macros.blackbox
