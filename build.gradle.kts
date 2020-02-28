@@ -12,6 +12,11 @@ repositories {
   mavenCentral()
 }
 
+java {
+  sourceCompatibility = JavaVersion.VERSION_1_8
+  targetCompatibility = JavaVersion.VERSION_1_8
+}
+
 dependencies {
   implementation("org.scala-lang:scala-library:2.13.1")
   implementation("org.scala-lang:scala-reflect:2.13.1")
